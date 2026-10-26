@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Natureza</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main>
+    <h1>Galeria de Natureza</h1>
 
+    <div class="galeria">
+      <button type="button" aria-label="Ampliar imagem do deserto">
+        <img src="imagens/deserto.png" alt="Deserto">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem do coala">
+        <img src="imagens/coala.png" alt="Coala">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem da água-viva">
+        <img src="imagens/agua-viva.png" alt="Água-viva">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem da flor">
+        <img src="imagens/flor.png" alt="Flor">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem da casa no lago">
+        <img src="imagens/casa-no-lago.png" alt="Casa no lago">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem do lago">
+        <img src="imagens/lago.png" alt="Lago">
+      </button>
+
+      <!-- Duas imagens novas -->
+      <button type="button" aria-label="Ampliar imagem da floresta">
+        <img src="imagens/floresta.png" alt="Floresta">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem da montanha">
+        <img src="imagens/montanha.png" alt="Montanha">
+      </button>
+    </div>
+  </main>
+
+  <dialog class="ampliacao" aria-label="Imagem ampliada">
+    <button class="fechar" type="button"
+      aria-label="Fechar imagem ampliada">
+      &times;
+    </button>
+
+    <img class="imagem-ampliada" alt="">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
